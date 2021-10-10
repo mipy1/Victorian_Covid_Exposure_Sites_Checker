@@ -23,3 +23,4 @@
 
 ### How It Works
 - Gets data from the DHHS Exposure site CKAN Data API, and checks for matches on locations.json
+
