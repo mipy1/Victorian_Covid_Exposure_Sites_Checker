@@ -6,8 +6,20 @@
 - \** The API has changed to only show tier 1 sites because it is becoming too hard to track with so many cases.
 
 ### How To Use It
-- Just put in suburbs you've been to, into the locations.json file and run (check your spelling :P)
-
+1. Enter the names of suburbs you have visited into `locations.json`
+	- `Public Transport` considered its own suburb
+		<details>
+			<summary>Example</summary>
+	
+			{
+				"locations": [
+					"Melbourne",
+					"Public Transport"
+				]
+			}
+	
+		</details>
+2. Run `victorian_covid_exposure_site_checker.py` using a python 3 client
 
 ### How It Works
 - Gets data from the DHHS Exposure site CKAN Data API, and checks for matches on locations.json
