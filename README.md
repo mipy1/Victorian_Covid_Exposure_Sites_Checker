@@ -1,5 +1,8 @@
 # Victorian_Covid_Exposure_Sites_Checker
 
+
+## **Archived due to the halting of contact tracing from now onwards.**
+
 ### What
 - A little tool I built to check if you have been to any of the 100 most recent\* tier 1\** Victorian COVID-19 exposure sites
 - \* The API is currently only returning the 100 most recent - working on it
